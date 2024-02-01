@@ -1,1 +1,335 @@
-/*# sourceMappingURL=style.css.map */
+@font-face {
+  font-family: "Roboto";
+  src: url("../astess/fonts/Roboto-Regular.eot");
+  src: url("../astess/fonts/Roboto-Regular.eot?#iefix") format("embedded-opentype"), url("../astess/fonts/Roboto-Regular.woff") format("woff"), url("../astess/fonts/Roboto-Regular.ttf") format("truetype"), url("../astess/fonts/Roboto-Regular.svg#Roboto-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../astess/fonts/Roboto-Bold.eot");
+  src: url("../astess/fonts/Roboto-Bold.eot?#iefix") format("embedded-opentype"), url("../astess/fonts/Roboto-Bold.woff") format("woff"), url("../astess/fonts/Roboto-Bold.ttf") format("truetype"), url("../astess/fonts/Roboto-Bold.svg#Roboto-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../astess/fonts/Roboto-Medium.eot");
+  src: url("../astess/fonts/Roboto-Medium.eot?#iefix") format("embedded-opentype"), url("../astess/fonts/Roboto-Medium.woff") format("woff"), url("../astess/fonts/Roboto-Medium.ttf") format("truetype"), url("../astess/fonts/Roboto-Medium.svg#Roboto-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../astess/fonts/Roboto-Light.eot");
+  src: url("../astess/fonts/Roboto-Light.eot?#iefix") format("embedded-opentype"), url("../astess/fonts/Roboto-Light.woff") format("woff"), url("../astess/fonts/Roboto-Light.ttf") format("truetype"), url("../astess/fonts/Roboto-Light.svg#Roboto-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../astess/fonts/Roboto-Black.eot");
+  src: url("../astess/fonts/Roboto-Black.eot?#iefix") format("embedded-opentype"), url("../astess/fonts/Roboto-Black.woff") format("woff"), url("../astess/fonts/Roboto-Black.ttf") format("truetype"), url("../astess/fonts/Roboto-Black.svg#Roboto-Black") format("svg");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../astess/fonts/Roboto-Thin.eot");
+  src: url("../astess/fonts/Roboto-Thin.eot?#iefix") format("embedded-opentype"), url("../astess/fonts/Roboto-Thin.woff") format("woff"), url("../astess/fonts/Roboto-Thin.ttf") format("truetype"), url("../astess/fonts/Roboto-Thin.svg#Roboto-Thin") format("svg");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-style: normal;
+  font-family: "Roboto" sans-serif;
+}
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (max-width: 375px) {
+  .winner {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-image: url(../astess/img/obhavo-3.png) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .winner .winner__left {
+    padding: 19px;
+    margin-bottom: 40px;
+  }
+  .winner .winner__left .img {
+    margin-bottom: 100px;
+    width: 39px;
+    height: 20px;
+  }
+  .winner .winner__left .winner__day {
+    gap: 5px;
+  }
+  .winner .winner__left .winner__day h1 {
+    color: #fff;
+    font-size: 64px;
+  }
+  .winner .winner__left .winner__day div {
+    row-gap: 4px;
+  }
+  .winner .winner__left .winner__day div h2 {
+    font-size: 30px;
+  }
+  .winner .winner__left .winner__day div h3 {
+    font-size: 10px;
+  }
+  .winner .winner__left .winner__day img {
+    width: 40px;
+    height: 40px;
+  }
+  .winner .winner__right {
+    width: 100%;
+  }
+  .winner .winner__right .main__section .serch {
+    position: relative;
+    top: 0px;
+    padding-bottom: none;
+  }
+  .winner__title h1 {
+    border-top: none;
+  }
+  .winner__today {
+    display: none !important;
+  }
+  .twind {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid white;
+  }
+}
+@media (min-width: 375px) and (max-width: 982px) {
+  .winner {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-image: url(../astess/img/obhavo-2.png) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .winner .winner__left {
+    padding: 19px;
+    margin-bottom: 40px;
+  }
+  .winner .winner__left .img {
+    margin-bottom: 200px;
+    width: 60px;
+    height: 31.372px;
+  }
+  .winner .winner__left .winner__day {
+    gap: 5px;
+  }
+  .winner .winner__left .winner__day h1 {
+    color: #fff;
+    font-size: 120px;
+  }
+  .winner .winner__left .winner__day div {
+    row-gap: 10px;
+  }
+  .winner .winner__left .winner__day div h2 {
+    font-size: 48px;
+  }
+  .winner .winner__left .winner__day div h3 {
+    font-size: 16px;
+  }
+  .winner .winner__left .winner__day img {
+    width: 55px;
+    height: 55px;
+  }
+  .winner .winner__right {
+    width: 100%;
+  }
+  .winner .winner__right .main__section {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .twind {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid white;
+  }
+  .winner__today {
+    display: none !important;
+  }
+}
+.winner {
+  width: 100%;
+  height: 742px;
+  background-image: url(../astess/img/1-obhavo-foni.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+}
+
+.winner__left {
+  padding-top: 37px;
+  padding-left: 150px;
+}
+.winner__left .img {
+  margin-bottom: 450px;
+}
+.winner__left :nth-child(2) {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.winner__left :nth-child(2) h1 {
+  color: #fff;
+  font-size: 142px;
+  font-weight: 400;
+  letter-spacing: -11.44px;
+}
+.winner__left :nth-child(2) div {
+  flex-direction: column;
+}
+.winner__left :nth-child(2) div h2 {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 400;
+}
+.winner__left :nth-child(2) div h3 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.winner__right {
+  width: 35%;
+  height: 100%;
+  -webkit-backdrop-filter: blur(9px);
+          backdrop-filter: blur(9px);
+}
+.winner__right .main__section {
+  padding-top: 45px;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+.winner__right .main__section .serch {
+  border-bottom: 1px solid white;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 13px;
+  align-items: center;
+}
+.winner__right .main__section .serch form input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.winner__right .main__section .serch form ::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 20px;
+  font-weight: 400;
+}
+.winner__right .main__section .serch form ::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 20px;
+  font-weight: 400;
+}
+.winner__right .main__section .serch form :focus {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 20px;
+  font-weight: 400;
+}
+.winner__right .main__section .winner__detals p {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 41px auto 52px;
+}
+.winner__right .main__section .winner__detals div h1 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+}
+.winner__right .main__section .winner__detals div .temprature {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.winner__right .main__section .winner__detals div .temprature h2 {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 18px;
+  font-weight: 400;
+}
+.winner__right .main__section .winner__detals div .temprature div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-top: 20px;
+}
+.winner__right .main__section .winner__detals div .temprature div h3 {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.winner__right .main__section .winner__today {
+  padding-top: 70px;
+}
+.winner__right .main__section .winner__today .winner__title h1 {
+  border-top: 2px solid #ffffff;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 30px;
+}
+.winner__right .main__section .winner__today .winner__text {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.winner__right .main__section .winner__today .winner__text :first-child {
+  display: flex;
+  gap: 13px;
+  align-items: center;
+}
+.winner__right .main__section .winner__today .winner__text :first-child p {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.winner__right .main__section .winner__today .winner__text :last-child h1 {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}/*# sourceMappingURL=style.css.map */
